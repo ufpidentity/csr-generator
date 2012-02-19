@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<title>ufp Identity - Certificate Request Generation Form</title>
+<link rel="stylesheet" href="default.css">
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/csr.js"></script>				
+</head>
+<body>
+<h2>Certificate Request Generation Form</h2>
+<form id="x500" method="post" action="/csr">
+<div class="input">
+<input type="text" id="country" name="C" class="field required" title="Please provide a country code" />
+<div class="description"><a href="http://www.iso.org/iso/country_names_and_code_elements">2 Letter Country Code</a> e.g. US</div>
+</div>
+<div class="input">
+<input type="text" id="state" name="ST" class="field required" title="Please provide a state" />
+<div class="description">Full state or province name e.g. California</div>
+</div>
+<div class="input">
+<input type="text" id="locality" name="L" class="field required" title="Please provide a locality/city" />
+<div class="description">Full locality name/city e.g. San Francisco</div>
+</div>
+<div class="input">
+<input type="text" id="organization" name="O" class="field required" title="Please provide an organization/company" />
+<div class="description">Company e.g. Internet Widgets Pty Ltd</div>
+</div>
+<div class="input">
+<input type="text" id="organizationalUnit" name="OU" class="field" title="Please provide a organizational unit" />
+<div class="description">Section e.g. Manufacturing Department</div>
+</div>
+<div class="input">
+<input type="text" id="commonName" name="CN" class="field required" title="Please provide a common name" />
+<div class="description">Domain Name e.g. example.com</div>
+</div>
+<div class="input">
+<input type="text" id="emailAddress" name="emailAddress" class="field required" title="Please provide an email address" />
+<div class="description">Your valid email e.g. alice@example.com</div>
+<input type="submit" value="Submit">
+</div>
+</form>
+</body>
+</html>

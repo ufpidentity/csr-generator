@@ -1,0 +1,50 @@
+body {
+    font-family: "DroidSansRegular", tahoma, arial, sans-serif;
+}
+
+.description {
+    line-height: 150%;
+    margin-bottom: 0.75em;
+    font-size: 0.85em;
+    text-align: left;
+}
+
+
+#x500 .field {
+	border:1px solid #ccc;
+	font-size:16px;
+	line-height:1em;
+	padding:4px;
+	-moz-box-shadow:inset 0 0 5px #ccc;
+	-webkit-box-shadow:inset 0 0 5px #ccc;
+	box-shadow:inset 0 0 5px #ccc;
+    width: 350px;
+}
+
+div.input {
+	margin: 10px 0 0 0;
+	width: 100%;
+	float: left;
+	position: relative;
+}
+	
+#x500 .error {
+	float: left;
+	position: absolute;
+	left: 25%;
+	top: -5px;
+	background: #890000;
+	padding: 5px 10px;	
+	font-size: 11px;
+	color: #fff;
+	text-shadow: #500 0 1px 0;
+	text-align: left;
+	white-space: nowrap;
+	border: 1px solid #500;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 0 0 5px #700;
+	-webkit-box-shadow: 0 0 5px #700;
+	box-shadow:0 0 5px #700;
+}
