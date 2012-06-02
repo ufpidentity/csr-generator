@@ -9,6 +9,9 @@ body {
     text-align: left;
 }
 
+form {
+    width: 100%;
+}
 
 #x500 .field {
 	border:1px solid #ccc;
@@ -26,6 +29,7 @@ div.input {
 	width: 100%;
 	float: left;
 	position: relative;
+    text-align: left;
 }
 	
 #x500 .error {

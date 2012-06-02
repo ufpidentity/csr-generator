@@ -1,10 +1,24 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html>
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title>ufp Identity - Certificate Request Generation Success</title>
-<link rel="stylesheet" href="default.css">
+<link rel="stylesheet" href="default.css"/>
+<link rel="stylesheet" href="https://www.ufp.com/identity/css/main.css"/>
+<link rel="stylesheet" href="r.css"/>
+
 </head>
 <body>
-<p>Please mail the newly generated Certificate Signing Request to <a href="mailto:&#105;&#110;&#102;&#111;&#64;&#117;&#102;&#112;&#46;&#99;&#111;&#109;?subject=New Certificate Signing Request">&#105;&#110;&#102;&#111;&#64;&#117;&#102;&#112;&#46;&#99;&#111;&#109;</a></p>
+  <div id="container">
+    <div id="formOuter">
+      <p>Please mail the newly generated Certificate Signing Request
+      (identity.csr.pem) to <a
+      href="mailto:&#105;&#110;&#102;&#111;&#64;&#117;&#102;&#112;&#46;&#99;&#111;&#109;?subject=New
+      Certificate Signing
+      Request">&#105;&#110;&#102;&#111;&#64;&#117;&#102;&#112;&#46;&#99;&#111;&#109;</a>
+      DO NOT mail the private key (identity.key.pem) or the secret key
+      (secret.key). Keep those safe and secure.</p>
+      <p>The files (identity.csr.pem, identity.key.pem, and secret.key) are located in the same directory where you ran the web application.</p>
+    </div>
+  </div>
 </body>
 </html>
