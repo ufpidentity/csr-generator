@@ -88,8 +88,6 @@ public class CertificateSigningRequestGenerator extends HttpServlet {
         }
         
         response.sendRedirect("/success.html");
-        //response.setStatus(HttpServletResponse.SC_OK);
-        //response.getWriter().println("session=" + request.getSession(true).getId());
     }
 
    private String generatePassword(int size) {
